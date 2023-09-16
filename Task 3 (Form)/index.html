@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tas2</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>  
+<body>
+    <h1>Please fill the form</h1>
+
+    <hr>
+
+    <div id="ad" class="ad">Account Detail</div><br>
+    <label for="un" name="un">Username</label>
+    <input type="text" name="un" id="un"></input>
+    <br>
+    <label for="email" name="email" class="email">E-mail</label>
+    <input type="email" name="email" id="email" class="">
+    <br>
+    <label for="pw" name="pw">Password</label>
+    <input type="password" name="pw" id="pw"><br><br>
+    
+    <div id="pd" class="pd"  >Personal Detail</div><br>
+
+    <label for="name" name="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="sn" name="sn">Surname</label>
+    <input type="text" name="sn" id="sn">
+    <br>
+    <label for="city" name="city">City</label>
+    <select id="city" name="city">
+        <option value="Baku">Baku</option>
+        <option value="Ganja">Ganja</option>
+        <option value="Qabala">Qabala</option>
+        <option value="Quba">Quba</option>
+    </select><br>
+
+    <div class="radio">
+        <span class="gndr">Gender</span>
+        <input type="radio" name="gender" id="man" class="fman btn">
+        <label for="man" class="fman btn">Man</label>
+        <input type="radio" name="gender" id="woman" class="wman btn">
+        <label for="woman" class="wman btn">Woman</label>
+      </div>
+    <div class="chkbox">
+    <span>Hobbies</span>   
+    <input type="checkbox" id="movies" name="movies" class="altbox">
+    <label for="movies" name="movies" class="boxes">Movies</label>
+    <input type="checkbox" name="walk" id="walk" class="altbox">
+    <label for="walk" name="walk" class="boxes">Walk</label>
+    <input type="checkbox" name="gym" id="gym" class="altbox">
+    <label for="gym" name="gym" class="boxes">Gym</label>
+    <input type="checkbox" name="book" id="book" class="altbox">
+    <label for="book" name="book" class="boxes">Book</label>
+    </div>
+    <br>
+    <input type="submit" name="submit" id="submit" value="submit">
+
+</body>
+
+</html>

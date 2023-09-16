@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(225, 215, 234);
+}
+
+h1{
+   font-style: italic;
+   color: blueviolet;
+}
+#ad, #pd{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#un, #pw{
+    font-weight: bold;
+}
+
+label{
+    display: inline-block;
+    width: 220px;
+    margin: 4px
+}
+
+input[type=email]{
+    margin: 0%;
+    width: 176px;
+}
+
+.fman {
+  /* margin-left: none;
+  margin-right: none;
+  padding-left: none; */
+  width: 25px;
+  height: 14px;
+
+}
+.radio{
+    position: relative;
+    right: -170px;
+}
+
+.gndr{
+    position: relative;
+    left: -165px;
+}
+
+.boxes{
+    width: 50px;
+    height: auto;
+}
+
+.boxes, .altbox{
+    position: relative;
+    left: 170px;
+}
